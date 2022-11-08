@@ -16,6 +16,7 @@
 		64993470291AC2B70098E3F1 /* PokeAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499346F291AC2B70098E3F1 /* PokeAPIUITestsLaunchTests.swift */; };
 		6499347E291AC7340098E3F1 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499347D291AC7340098E3F1 /* PokemonAPI.swift */; };
 		64993481291ACA660098E3F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 64993480291ACA660098E3F1 /* Alamofire */; };
+		64993484291ACCF20098E3F1 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64993483291ACCF20098E3F1 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		6499346D291AC2B70098E3F1 /* PokeAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIUITests.swift; sourceTree = "<group>"; };
 		6499346F291AC2B70098E3F1 /* PokeAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6499347D291AC7340098E3F1 /* PokemonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
+		64993483291ACCF20098E3F1 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		64993450291AC2B60098E3F1 /* PokeAPI */ = {
 			isa = PBXGroup;
 			children = (
+				64993482291ACCDE0098E3F1 /* Model */,
 				6499347C291AC70B0098E3F1 /* API */,
 				64993451291AC2B60098E3F1 /* PokeAPIApp.swift */,
 				64993453291AC2B60098E3F1 /* ContentView.swift */,
@@ -140,6 +143,14 @@
 				6499347D291AC7340098E3F1 /* PokemonAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		64993482291ACCDE0098E3F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64993483291ACCF20098E3F1 /* Pokemon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64993454291AC2B60098E3F1 /* ContentView.swift in Sources */,
+				64993484291ACCF20098E3F1 /* Pokemon.swift in Sources */,
 				64993452291AC2B60098E3F1 /* PokeAPIApp.swift in Sources */,
 				6499347E291AC7340098E3F1 /* PokemonAPI.swift in Sources */,
 			);
