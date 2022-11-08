@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  PokeAPI
-//
-//  Created by Don Manuel on 8/11/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {

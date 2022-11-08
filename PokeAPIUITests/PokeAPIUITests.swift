@@ -1,10 +1,3 @@
-//
-//  PokeAPIUITests.swift
-//  PokeAPIUITests
-//
-//  Created by Don Manuel on 8/11/22.
-//
-
 import XCTest
 
 final class PokeAPIUITests: XCTestCase {
