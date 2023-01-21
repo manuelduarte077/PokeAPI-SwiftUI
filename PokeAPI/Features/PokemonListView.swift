@@ -6,7 +6,7 @@ struct PokemonListView: View {
     @State var pokemonList: [Pokemon] = []
     
     var body: some View {
-        
+         
         NavigationView {
             
             List(pokemonList, id: \.name) { pokemon in

@@ -10,17 +10,17 @@ struct PokemonCardView: View {
         HStack {
             AsyncImage(url: pokemon.imageURL) { image in
                 image.resizable()
-            } placeholder: {
+                } placeholder: {
                 Image(systemName: "number")
                     .resizable()
                     .padding()
-            }
+                }
             .aspectRatio(contentMode: .fit)
-            .frame(width: 60)
+            .frame(width: 100)
 
             Text(pokemon.name.capitalized)
                 .font(.title)
-                .fontWeight(.heavy)
+                .fontWeight(.medium)
         }
     }
 }
