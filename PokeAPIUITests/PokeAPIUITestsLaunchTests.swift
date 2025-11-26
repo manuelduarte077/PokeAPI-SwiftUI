@@ -1,3 +1,10 @@
+//
+//  PokeAPIUITestsLaunchTests.swift
+//  PokeAPIUITests
+//
+//  Created by Manuel Duarte on 25/11/25.
+//
+
 import XCTest
 
 final class PokeAPIUITestsLaunchTests: XCTestCase {
@@ -10,6 +17,7 @@ final class PokeAPIUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

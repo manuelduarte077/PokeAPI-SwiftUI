@@ -1,4 +1,12 @@
+//
+//  PokeAPITests.swift
+//  PokeAPITests
+//
+//  Created by Manuel Duarte on 25/11/25.
+//
+
 import XCTest
+@testable import PokeAPI
 
 final class PokeAPITests: XCTestCase {
 
@@ -20,7 +28,7 @@ final class PokeAPITests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
